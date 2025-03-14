@@ -13,3 +13,7 @@ git branch: kiểm tra số nhánh và nhánh mình đang ở hiện tại
 _ git pull: để kéo file về máy
 _ chỉnh sửa file bị conflict
 _ sau đó up lên lại git
+
++Khi bắt đầu set-up git ở máy mới
+_ git clone + mã lấy ở trang git: để tạo thư mục git trong file muốn tạo
+_ 
