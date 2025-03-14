@@ -1,10 +1,15 @@
-Push
++Push
 git status: kiem tra tinh trang file 
 git add .: lua chon file muốn đẩy lên git
 git commit -m 'message': chắc chắn nhưng file trên đẩy lên git với dòng note
 git push origin ... (tên nhánh đang ở hiện tại): đưa file lên git tương ứng với nhánh ghi
 
-Pull:
++Pull:
 git  pull origin ... (ham hien tai muon keo vao) "main or not-main"
 git checkout -b ...(tên nhánh mới): tạo 1 nhành mới và chuyển qua nhánh đó
 git branch: kiểm tra số nhánh và nhánh mình đang ở hiện tại
+
++Trong trường hợp xảy ra conflict:
+_ git pull: để kéo file về máy
+_ chỉnh sửa file bị conflict
+_ sau đó up lên lại git
